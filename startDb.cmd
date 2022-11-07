@@ -1,0 +1,1 @@
+docker run --rm --env "TZ=Europe/Oslo" --name is201-mariadb -p 127.0.0.1:4567:3306/tcp -v "%cd%\database":/var/lib/mysql -e MYSQL_ROOT_PASSWORD=Testingtesting1234 -d mariadb:latest
